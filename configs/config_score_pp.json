@@ -1,0 +1,40 @@
+{
+	"exp_name": "performance on short sequences",
+	"gpu": "0",
+	"gcn_net_d": 10,
+	"BATCH_SIZE": 6,
+	"epochs": 20,
+	"init_lr": 0.001,
+	"weight_decay": 0.01,
+	"lr_reduce_factor": 0.5,
+    "lr_schedule_patience": 5,
+	"best_epoch": 19,
+	"OUT_STEP": 100,
+	"LOAD_MODEL": true,
+	"pp_steps": 20,
+	"pp_loss": "f1",
+	"pp_model": "mixed",
+	"rho_per_position": "matrix",
+	"data_type": "archiveII_all",
+	"test_data_type": "archiveII_all",
+	"model_type": "rnastralign_600_cloud",
+	"save_folder": "ct_file",
+	"k": 1,
+	"step_gamma": 1,
+	"test": {
+		"f1": true,
+		"accuracy": false,
+		"energy": false
+	},
+    "net_params": {
+        "L": 2,
+        "hidden_dim": 32,
+        "out_dim": 32,
+        "residual": true,
+        "readout": "mean",
+        "in_feat_dropout": 0.25,
+        "dropout": 0.25,
+        "batch_norm": true,
+        "self_loop": false
+    }
+}
