@@ -1,0 +1,6 @@
+setup.py
+GCNfold.egg-info/PKG-INFO
+GCNfold.egg-info/SOURCES.txt
+GCNfold.egg-info/dependency_links.txt
+GCNfold.egg-info/requires.txt
+GCNfold.egg-info/top_level.txt
