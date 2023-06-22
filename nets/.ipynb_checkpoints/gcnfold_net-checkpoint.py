@@ -329,10 +329,8 @@ class GCNFoldNet_UNet(nn.Module):
         cnn_node_weight = torch.sigmoid(self.batchnorm_weight(cnn_node_weight))  # sigmoid [128, 501]
         
         # tmp
-        cnn_node_weight_mean = cnn_node_weight.squeeze(0)
-        
+        cnn_node_weight_mean = cnn_node_weight.squeeze(0) 
         cnn_node_weight_mean_np = np.array(cnn_node_weight_mean.cpu())
-        np.savetxt("cnn_weight_data.txt", cnn_node_weight_mean_np)
 
         # 经过四层GraphConv得到h1
         g.ndata['h'] = h1  # torch.Size([64128, 32])
@@ -345,9 +343,7 @@ class GCNFoldNet_UNet(nn.Module):
         hg_mean = torch.mean(hg, dim=1)
         hg_mean = hg_mean.squeeze(0)
         hg_mean = hg_mean.squeeze(1)
-        
         hg_mean_np = np.array(hg_mean.cpu())
-        np.savetxt("hg_data.txt", hg_mean_np)
         
         hg = self.embedding_hg(hg)  # torch.Size([128, 32, 501, 10])
         hg = self.in_feat_dropout(hg)
