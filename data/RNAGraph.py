@@ -58,8 +58,6 @@ class RNAGraphDGL(torch.utils.data.Dataset):
         matrix = load_mat(filepath, self.seq_list, pool, load_dense=False, probabilistic=True)
         adjacency_matrix, probability_matrix = matrix
 
-        print(probability_matrix)
-
         print("convert graph to dglgraph")
         self.graph_lists = self._convert2dglgraph(self.seq_list, probability_matrix)
 

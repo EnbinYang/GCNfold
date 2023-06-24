@@ -30,6 +30,6 @@ test_pairs = np.array([test_all_600_used[ind][5] for ind in inds_test])
 test_all_600_used_obj = DGLFormDataset(test_graphs, test_seqs, test_labels, test_length, test_names, test_pairs)
 
 with open(datapath + '/test_no_redundant.pkl', 'wb') as f:
-	pickle.dump(test_all_600_used_obj, f)
+    pickle.dump(test_all_600_used_obj, f)
 print('file save finished: ' + str(datapath) + '/test_no_redundant.pkl')
 
