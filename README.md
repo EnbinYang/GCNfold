@@ -78,3 +78,22 @@ Preparation is complete. Go ahead and test your DIY dataset below.
 ```bash
 python diy_data_test.py -c configs/diy_data_test.json
 ```
+
+## Paper Publication
+
+APA format:
+
+Yang, E., Zhang, H., Zang, Z., Zhou, Z., Wang, S., Liu, Z., & Liu, Y. (2023). GCNfold: A novel lightweight model with valid extractors for RNA secondary structure prediction. Computers in Biology and Medicine, 107246.
+
+BibTex format:
+
+```bash
+@article{yang2023gcnfold,
+  title={GCNfold: A novel lightweight model with valid extractors for RNA secondary structure prediction},
+  author={Yang, Enbin and Zhang, Hao and Zang, Zinan and Zhou, Zhiyong and Wang, Shuo and Liu, Zhen and Liu, Yuanning},
+  journal={Computers in Biology and Medicine},
+  pages={107246},
+  year={2023},
+  publisher={Elsevier}
+}
+```
