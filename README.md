@@ -79,7 +79,7 @@ Preparation is complete. Go ahead and test your DIY dataset below.
 python diy_data_test.py -c configs/diy_data_test.json
 ```
 
-## Paper Publication
+## Citation
 
 APA format:
 
