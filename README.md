@@ -1,5 +1,11 @@
 # GCNfold: A novel lightweight model for RNA secondary structure prediction
 
+## Paper Publication
+
+This article has been published on *Computers in Biology and Medicine*. You can access it in 50 days (will expire on Sep 13, 2023) via the [download link](https://authors.elsevier.com/c/1hStR2OYd3sYA).
+
+## Prepare for Experiments
+
 Let us spend some time configuring the environment that GCNfold needs.
 
 ### Install RNAplfold
@@ -72,7 +78,3 @@ Preparation is complete. Go ahead and test your DIY dataset below.
 ```bash
 python diy_data_test.py -c configs/diy_data_test.json
 ```
-
-### Paper Publication
-
-This manuscript is currently <u>Under Review</u> in the journal *Computers in Biology and Medicine*.
