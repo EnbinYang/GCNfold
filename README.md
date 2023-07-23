@@ -2,7 +2,7 @@
 
 ## Paper Publication
 
-This article has been published on *Computers in Biology and Medicine*. You can access it in 50 days (will expire on Sep 13, 2023) via the [download link](https://authors.elsevier.com/c/1hStR2OYd3sYA).
+This article has been published on *Computers in Biology and Medicine* (SCI Q2 Area, IF: 7.70). You can access it in 50 days (will expire on Sep 13, 2023) via the [download link](https://authors.elsevier.com/c/1hStR2OYd3sYA).
 
 ## Prepare for Experiments
 
